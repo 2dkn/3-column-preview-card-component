@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 20rem;
+  margin: 0 auto;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1200px;;
+  background-color: red;
+}
+
+.titles {
+  disp
+}
+
+.attribution {
+  padding-top: 2rem;
+  display: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 47%, 42%);
+}
