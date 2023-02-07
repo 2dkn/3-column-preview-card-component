@@ -1,0 +1,48 @@
+@media (max-width: 50em) {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main {
+    height: 100rem;
+    position: absolute;
+  }
+
+  body {
+    padding: 2rem;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container-flex {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    width: 45%;
+    height: 1rem;
+    padding: 0rem;
+    /* margin: 0 auto;
+    max-width: 100%; */
+    /* grid-template-rows: 2fr; */
+  }
+
+  .container-1 {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+
+  .container-3 {
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+  }
+
+  .attribution {
+    position: relative;
+    margin-top: 95rem;
+    padding: 0;
+  }
+
+  .btn {
+    margin: 0;
+  }
+}

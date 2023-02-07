@@ -15,10 +15,10 @@ body {
   display: flex;
   align-items: center;
   /* align-items: flex-end; */
-  width: 70%;
+  width: 58%;
   height: 31rem;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 80%;
   /* background-color: #ddd; */
   border-radius: 0.4rem;
 
@@ -151,7 +151,7 @@ body {
 
 .attribution {
   padding-top: 2rem;
-  display: absolute;
+  /* display: absolute; */
   font-size: 15px;
   text-align: center;
   font-family: "Lexend Deca", sans-serif;
